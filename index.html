@@ -1,21 +1,85 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-  </head>
-  <body>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
-      <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
-      </p>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Diane Galiano Portfolio</title>
+</head>
+
+<body>
+
+    <nav id="home">
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#me">About Me</a>
+            </li>
+            <li>
+                <a href="#project">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="hero"></div>
+
+    <header>
+        <h1>Hello, I'm <span class="name"> Diane Galiano</span> . I'm a web developer.</h1>
+    </header>
+
+    <main>
+        <h2 class="title" id="me" >About Me</h2>
+
+        <img class="Me" src="./assets/images/me.jpg" alt="Diane Galiano">
+        
+        <p>
+            I am a web developer currently located in Killeen, TX. 
+            I am a graduate of The Art Institute of Austin, and as a Media Arts and Animation major, I have a strong background in media production such as animation, graphic design, audio production and more. 
+            <br>
+            <br>
+            Seeking to broaden my horizon I am always pushing myself to learn the latest technology skills. 
+            It is my goal to use my skills to create intuitive and dynamic content.  
+            
+        </p>
+
+    </main>
+
+    <div class="button">
+    <button onclick="location.href='#home'">Home</button>
     </div>
-  </section>
-  </body>
+
+    <section>
+       <h2 class="title" id="project">Projects</h2>
+
+        <div>
+       <img class="card" src="./assets/images/200.jpeg" alt="Place Holder">
+        </div>
+        <div>
+       <img class="card" src="./assets/images/200.jpeg" alt="Place Holder">
+        </div>
+         <div>
+       <img class="card" src="./assets/images/200.jpeg" alt="Place Holder">
+        </div>
+
+      
+    
+    </section>
+  
+    <div class="button">
+        <button onclick="location.href='#home'">Home</button>
+        </div>
+    <footer>
+        <h2 class="title" id="contact">Contact Information</h2>
+
+        <p><span class="name">Email:</span> dianegaliano09@gmail.com</p>
+
+        <p><span class="name">Github:</span> https://github.com/DianeGaliano</p>
+    </footer>
+</body>
+
 </html>
