@@ -14,7 +14,6 @@
 .hero-text {
     position: absolute;
     flex-wrap: inherit;
-
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -56,12 +55,11 @@ nav {
 
 
 .Me {
-    /* flex: 1 0 0; */
+
     position: relative;
     flex-wrap: wrap;
     vertical-align: baseline;
     max-height: 400px;
-    /* float: right; */
     margin-right: 50px;
     border-radius: 10px;
     float: left;
@@ -71,6 +69,11 @@ nav {
 main {
     display: block;
     flex-wrap: wrap;
+    background-image: url(./images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     padding: 10%;
     height: 50%;
     width: 100;
@@ -80,10 +83,8 @@ main {
 section {
     display: block;
     flex-wrap: wrap;
-    background: linear-gradient(rgba(0, 128, 128, 0.548),rgba(1, 61, 61, 0.644));
+    background-image: url(./images/background1.jpg);
     margin-bottom: 30px;
-    padding: 50px;
-    height: 500px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -93,14 +94,13 @@ div {
 }
 
 .card {
- /* flex: 1 0 0; */
- position: relative;
- /* flex-wrap: wrap; */
- /* margin-right: 70px; */
- /* padding: 5px; */
- border-width: 5px;
- height: 300px;
- width: 50%;
+    position: relative;
+    flex-wrap: wrap; 
+    margin-right: 70px;
+    padding: 10px; 
+    border-width: 5px;
+    height: 300px;
+    width: 50%;
 }
 
 .title {
@@ -122,6 +122,7 @@ footer {
 
 }
 
+/* Hover Effects */
 li a:hover{
     cursor: pointer;
     text-transform: uppercase;
