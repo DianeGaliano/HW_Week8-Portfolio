@@ -8,6 +8,8 @@
     background-size: cover;
     position: relative;
     padding: 30%;
+    flex-wrap: wrap;
+
 }
 .hero-text {
     position: absolute;
@@ -54,11 +56,12 @@ nav {
 
 
 .Me {
-    flex: 1 0 0;
+    /* flex: 1 0 0; */
+    position: relative;
     flex-wrap: wrap;
     vertical-align: baseline;
     max-height: 400px;
-    float: right;
+    /* float: right; */
     margin-right: 50px;
     border-radius: 10px;
     float: left;
@@ -86,13 +89,15 @@ section {
 
 div {
     display: inline-block;
+    flex-wrap: wrap;
 }
 
 .card {
- flex: 1 0 0;
- flex-wrap: wrap;
- margin-right: 70px;
- padding: 5px;
+ /* flex: 1 0 0; */
+ position: relative;
+ /* flex-wrap: wrap; */
+ /* margin-right: 70px; */
+ /* padding: 5px; */
  border-width: 5px;
  height: 300px;
  width: 50%;
