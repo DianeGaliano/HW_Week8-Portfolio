@@ -11,6 +11,8 @@
 }
 .hero-text {
     position: absolute;
+    flex-wrap: inherit;
+
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -38,6 +40,7 @@ nav {
 
  li {
      display: inline-block;
+     flex-wrap: wrap;
      margin: 25px;
      font-size: 20pt;
      font-family: ink free;
@@ -52,6 +55,7 @@ nav {
 
 .Me {
     flex: 1 0 0;
+    flex-wrap: wrap;
     vertical-align: baseline;
     max-height: 400px;
     float: right;
@@ -63,14 +67,16 @@ nav {
 
 main {
     display: block;
-    margin-bottom: 30px;
-    padding: 50px;
-    height: 500px;
+    flex-wrap: wrap;
+    padding: 10%;
+    height: 50%;
+    width: 100;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 section {
     display: block;
+    flex-wrap: wrap;
     background: linear-gradient(rgba(0, 128, 128, 0.548),rgba(1, 61, 61, 0.644));
     margin-bottom: 30px;
     padding: 50px;
@@ -84,6 +90,7 @@ div {
 
 .card {
  flex: 1 0 0;
+ flex-wrap: wrap;
  margin-right: 70px;
  padding: 5px;
  border-width: 5px;
