@@ -3,9 +3,10 @@
     height: 820px;
     width: 100%;
     margin-bottom: 50x;
-    background-image: url("../images/background1.jpg");
+    background-image: url("./images/background1.jpg");
     background-size: cover;
     background-position: center;   
+    padding: 10%;
 }
 
 header {
